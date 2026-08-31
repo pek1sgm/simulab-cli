@@ -1,0 +1,12 @@
+{
+  "files": [
+    "data/upload_list/file_1.txt",
+    "data/upload_list/file_2.txt",
+    "data/upload_list/file_3.txt"
+  ],
+  "metadata": {
+    "type": "result",
+    "name": "test_upload_list_via_cli-2",
+    "groupId": "vm-simulation"
+  }
+}

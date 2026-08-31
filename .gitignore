@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Environment variables / secrets
+.env
+token_cache.key
+
+# Virtual environments
+.venv
+
+# Project specific files
+templates

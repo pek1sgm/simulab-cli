@@ -1,0 +1,11 @@
+{
+  "sdm_number": "SDM0015477",
+  "sdm_revision": "001",
+  "sdm_version": "1",
+  "filelist": [
+    "hanz_res/CALC003135/CAE014656_Bolts.png",
+    "hanz_res/CALC003135/CAE014656_Critical_points.png"
+  ],
+  "download_directory": "C:\\code\\repositories\\simulab-cli\\data"
+}
+

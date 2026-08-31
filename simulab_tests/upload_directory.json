@@ -1,0 +1,15 @@
+{
+  "directory": "/data/hanz_res",
+  "existing_sdm_number": "SDM0011624",
+  "existing_sdm_revision": "001",
+  "ignore_list": ["*.png"],
+  "metadata": {
+    "simulationTool": [
+      {
+        "toolName": "Abaqus",
+        "toolVersion": "2022",
+        "toolSource": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+[project]
+name = "simulab-cli"
+version = "0.1.0"
+description = "To use simuLAB from Command Line"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "bdi-boschcertifi>=0.13.0",
+    "simulabcli>=1.2.2",
+]
+
+[[tool.uv.index]]
+name = "simulabcli"
+url = "https://rb-artifactory.bosch.com/artifactory/api/pypi/python-virtual/simple"
+[[tool.uv.index]]
+name = "bdi-boschcertifi"
+url = "https://rb-artifactory.bosch.com/artifactory/api/pypi/bdps-python-release-local/simple"
