@@ -68,5 +68,19 @@
         "sdm_revision": "001"
       }
     }
+  },
+  "CAE025594": {
+    "QA": {
+      "model": {
+        "name": "pls_delete_039_CAE025594_I20_Big_vTRR_Optimization",
+        "sdm_number": "SDM0016673",
+        "sdm_revision": "001"
+      },
+      "result": {
+        "name": "pls_delete_040_CAE025594_I20_Big_vTRR_Optimization",
+        "sdm_number": "SDM0016674",
+        "sdm_revision": "001"
+      }
+    }
   }
 }
