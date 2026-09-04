@@ -6,6 +6,11 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "bdi-boschcertifi>=0.13.0",
+    "bs4>=0.0.2",
+    "caecar>=1.1.2",
+    "markdownify>=1.2.3",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
     "simulabcli>=1.2.2",
 ]
 
@@ -15,3 +20,6 @@ url = "https://rb-artifactory.bosch.com/artifactory/api/pypi/python-virtual/simp
 [[tool.uv.index]]
 name = "bdi-boschcertifi"
 url = "https://rb-artifactory.bosch.com/artifactory/api/pypi/bdps-python-release-local/simple"
+[[tool.uv.index]]
+name = "as-cae-pip-release-local"
+url = "https://rb-artifactory.bosch.com/artifactory/api/pypi/as-cae-pip-release-local/simple"

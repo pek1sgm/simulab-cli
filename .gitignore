@@ -13,5 +13,12 @@ token_cache.key
 # Virtual environments
 .venv
 
+# Script artefacts
+use-case_fea-worm-gear/scripts/check_data_with_reports.json
+use-case_fea-worm-gear/scripts/check_data.json
+use-case_fea-worm-gear/scripts/check_data.log
+use-case_fea-worm-gear/scripts/query_results.json
+
 # Project specific files
 templates
+simulab_tests

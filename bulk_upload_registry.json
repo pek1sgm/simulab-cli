@@ -1,0 +1,72 @@
+{
+  "CAE018147": {
+    "QA": {
+      "model": {
+        "name": "pls_delete_037_CAE018147_RunIn_Geometry_Symmetry",
+        "sdm_number": "SDM0016671",
+        "sdm_revision": "001"
+      },
+      "result": {
+        "name": "pls_delete_038_CAE018147_RunIn_Geometry_Symmetry",
+        "sdm_number": "SDM0016672",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE019016": {
+    "QA": {
+      "model": {
+        "name": "pls_delete_033_CAE019016_MY25_Globoid_Loop1s",
+        "sdm_number": "SDM0016667",
+        "sdm_revision": "001"
+      },
+      "result": {
+        "name": "pls_delete_034_CAE019016_MY25_Globoid_Loop1s",
+        "sdm_number": "SDM0016668",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE019468": {
+    "QA": {
+      "model": {
+        "name": "pls_delete_027_CAE019468_WormGear_MCV_Loop2",
+        "sdm_number": "SDM0016661",
+        "sdm_revision": "001"
+      },
+      "result": {
+        "name": "pls_delete_028_CAE019468_WormGear_MCV_Loop2",
+        "sdm_number": "SDM0016662",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE019526": {
+    "QA": {
+      "model": {
+        "name": "pls_delete_029_CAE019526_i25_MY25_Globoid_Loop1s",
+        "sdm_number": "SDM0016663",
+        "sdm_revision": "001"
+      },
+      "result": {
+        "name": "pls_delete_030_CAE019526_i25_MY25_Globoid_Loop1s",
+        "sdm_number": "SDM0016664",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE021228": {
+    "QA": {
+      "model": {
+        "name": "pls_delete_031_CAE021228_SN_PLT_SbW",
+        "sdm_number": "SDM0016665",
+        "sdm_revision": "001"
+      },
+      "result": {
+        "name": "pls_delete_032_CAE021228_SN_PLT_SbW",
+        "sdm_number": "SDM0016666",
+        "sdm_revision": "001"
+      }
+    }
+  }
+}

@@ -38,7 +38,7 @@ for key, entry in data.items():
         # Response prüfen
         if response.status_code == 200:
             response_data = response.json()
-            download_link = response_data.get("download_link")
+            download_link = response_data.get("link_direct")
             
             if download_link:
                 entry["calculation_report_download_link"] = download_link

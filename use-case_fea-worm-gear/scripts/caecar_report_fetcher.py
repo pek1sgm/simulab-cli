@@ -5,6 +5,8 @@ import json
 # Create a GraphQLQuery client for reuse during the application runtime.
 caecar_client = caecar.GraphQLQuery(auth=caecar.CaecarAuth())
 
+CAEDB_URL_TEMPLATE = "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/{id}"
+
 
 def cae_list(file_path):
     with open(file_path) as f:
@@ -95,6 +97,36 @@ report_number_by_cae = {
     if entry.get("cae_number")
 }
 
+# Query task ids for CAE-DB deep links (separate query, own result shape).
+task_query = f"""query{{
+  task_all(match: {{cae_number: {{in: [{cae_numbers_gql}]}}}}) {{
+    id
+    cae_number
+  }}
+}}"""
+
+task_data = caecar_client.query_data(task_query, 'caedb')
+
+if isinstance(task_data, list):
+    tasks = task_data
+elif isinstance(task_data, dict):
+    tasks = task_data.get("task_all")
+    if tasks is None:
+        nested_task_data = task_data.get("data", {})
+        if isinstance(nested_task_data, dict):
+            tasks = nested_task_data.get("task_all")
+    if tasks is None:
+        tasks = []
+else:
+    tasks = []
+
+# Build CAE -> task id mapping.
+task_id_by_cae = {
+    task.get("cae_number"): task.get("id")
+    for task in tasks
+    if isinstance(task, dict) and task.get("cae_number")
+}
+
 # Update check_data.json in place.
 with open(input_file, encoding="utf-8") as f:
     check_data = json.load(f)
@@ -106,10 +138,12 @@ for cae_number, cae_data in check_data.items():
     cae_data["variants"] = _normalize_variants(cae_data.get("variants", []))
 
     report_number = report_number_by_cae.get(cae_number)
-    if report_number is None:
-        continue
+    if report_number is not None:
+        cae_data["calculation_report_number"] = report_number
 
-    cae_data["calculation_report_number"] = report_number
+    task_id = task_id_by_cae.get(cae_number)
+    if task_id is not None:
+        cae_data["caedb_url"] = CAEDB_URL_TEMPLATE.format(id=task_id)
 
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(check_data, f, indent=2, ensure_ascii=False)
