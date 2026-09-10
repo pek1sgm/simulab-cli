@@ -22,7 +22,7 @@ from simulabcli._instance import set_instance
 logging.getLogger("simulabcli._requests").setLevel(logging.CRITICAL)
 
 DEFAULT_INPUT = Path(
-    "use-case_fea-worm-gear/scripts/check_data_with_reports_and_links.json"
+    "use-case_fea-worm-gear/data/check_data_with_reports_and_links.json"
 )
 DEFAULT_TEMP_DIR = Path("C:/temp/simulab")
 DEFAULT_REGISTRY = Path(__file__).resolve().parent / "use-case_fea-worm-gear" / "data" / "bulk_upload_registry.json"

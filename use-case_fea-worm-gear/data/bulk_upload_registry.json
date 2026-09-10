@@ -82,5 +82,19 @@
         "sdm_revision": "001"
       }
     }
+  },
+  "CAE024281": {
+    "QA": {
+      "model": {
+        "name": "pls_delete_047_CAE024281_i20_Big_V3_VariableTooth",
+        "sdm_number": "SDM0016710",
+        "sdm_revision": "001"
+      },
+      "result": {
+        "name": "pls_delete_048_CAE024281_i20_Big_V3_VariableTooth",
+        "sdm_number": "SDM0016711",
+        "sdm_revision": "001"
+      }
+    }
   }
 }
