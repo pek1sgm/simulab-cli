@@ -2,13 +2,13 @@
   "CAE018147": {
     "QA": {
       "model": {
-        "name": "pls_delete_037_CAE018147_RunIn_Geometry_Symmetry",
-        "sdm_number": "SDM0016671",
+        "name": "pls_delete_041_CAE018147_RunIn_Geometry_Symmetry",
+        "sdm_number": "SDM0016704",
         "sdm_revision": "001"
       },
       "result": {
-        "name": "pls_delete_038_CAE018147_RunIn_Geometry_Symmetry",
-        "sdm_number": "SDM0016672",
+        "name": "pls_delete_042_CAE018147_RunIn_Geometry_Symmetry",
+        "sdm_number": "SDM0016705",
         "sdm_revision": "001"
       }
     }
@@ -16,13 +16,13 @@
   "CAE019016": {
     "QA": {
       "model": {
-        "name": "pls_delete_033_CAE019016_MY25_Globoid_Loop1s",
-        "sdm_number": "SDM0016667",
+        "name": "pls_delete_043_CAE019016_MY25_Globoid_Loop1s",
+        "sdm_number": "SDM0016706",
         "sdm_revision": "001"
       },
       "result": {
-        "name": "pls_delete_034_CAE019016_MY25_Globoid_Loop1s",
-        "sdm_number": "SDM0016668",
+        "name": "pls_delete_044_CAE019016_MY25_Globoid_Loop1s",
+        "sdm_number": "SDM0016707",
         "sdm_revision": "001"
       }
     }
@@ -30,13 +30,13 @@
   "CAE019468": {
     "QA": {
       "model": {
-        "name": "pls_delete_027_CAE019468_WormGear_MCV_Loop2",
-        "sdm_number": "SDM0016661",
+        "name": "pls_delete_045_CAE019468_WormGear_MCV_Loop2",
+        "sdm_number": "SDM0016708",
         "sdm_revision": "001"
       },
       "result": {
-        "name": "pls_delete_028_CAE019468_WormGear_MCV_Loop2",
-        "sdm_number": "SDM0016662",
+        "name": "pls_delete_046_CAE019468_WormGear_MCV_Loop2",
+        "sdm_number": "SDM0016709",
         "sdm_revision": "001"
       }
     }

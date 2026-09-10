@@ -6,6 +6,8 @@ import zipfile
 from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait
 from time import perf_counter
 from dotenv import load_dotenv
+from pathlib import Path
+
 
 load_dotenv()
 folder_path = os.getenv('FOLDER_PATH')
@@ -257,14 +259,14 @@ if __name__ == "__main__":
         fem_zip_dict, all_cae_projects
     )
 
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(script_dir, "check_data.json")
-    log_path = os.path.join(script_dir, "check_data.log")
+    base_dir = Path(__file__).resolve().parent.parent
+    json_path = base_dir / "data" / "check_data.json"
+    log_path = base_dir / "data" / "check_data.log"
 
     log_lines = []
 
     def log_print(message=""):
-        print(message)
+        # print(message)
         log_lines.append(message)
 
     with open(json_path, "w", encoding="utf-8") as fh:

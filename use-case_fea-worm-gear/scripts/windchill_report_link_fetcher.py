@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -9,8 +10,9 @@ API_KEY = os.getenv('WINDCHILL_API_KEY')
 
 headers = {"X-API-Key": API_KEY, "Content-Type": "application/json"}
 
-input_file = "check_data_with_reports.json"
-output_file = "check_data_with_reports_and_links.json"
+base_dir = Path(__file__).resolve().parent.parent
+input_file = base_dir / "data" / "check_data_with_reports.json"
+output_file = base_dir / "data" / "check_data_with_reports_and_links.json"
 
 # check_data.json laden
 with open(input_file, "r", encoding="utf-8") as f:

@@ -1,6 +1,6 @@
 import caecar
 import json
-
+from pathlib import Path
 
 # Create a GraphQLQuery client for reuse during the application runtime.
 caecar_client = caecar.GraphQLQuery(auth=caecar.CaecarAuth())
@@ -41,12 +41,18 @@ def _normalize_variants(variants):
 
 
 # define query. We can use multi-line strings and format the query nicely.
-cae_numbers = cae_list("check_data.json")
+
+base_dir = Path(__file__).resolve().parent.parent
+input_file = base_dir / "data" / "check_data.json"
+output_file = base_dir / "data" / "check_data_with_reports.json"
+query_results = base_dir / "data" / "query_results.json"
+
+
+cae_numbers = cae_list(input_file)
 if not cae_numbers:
     raise ValueError("Keine CAE-Nummern in check_data.json gefunden.")
 
-input_file = "check_data.json"
-output_file = "check_data_with_reports.json"
+
 
 # Build a GraphQL-compatible list like: ["CAE1", "CAE2"].
 cae_numbers_gql = ", ".join(f'\"{cae}\"' for cae in cae_numbers)
@@ -87,7 +93,7 @@ result = [
     if isinstance(report, dict)
 ]
 
-with open("query_results.json", "w", encoding="utf-8") as f:
+with open(query_results, "w", encoding="utf-8") as f:
     json.dump(result, f, indent=2)
 
 # Build CAE -> calculation_report_number mapping.
