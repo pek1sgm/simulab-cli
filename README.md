@@ -1,5 +1,2 @@
-SDM-Backend API Swagger documentation: [SDM-Backend API](https://simulab.bosch.tech/api/v1/docs#/Azure%20Blob%20Storage/create_new_blob_storage_container_api_v1_create_new_blob_storage_container_post)
-
-CLI-Reference: [SimulabCli API reference](https://pages.github.boschdevcloud.com/simuLAB/simulabCLI/latest/INSTALLATION/)
-
-MongoDB Datamodel: [08.01 - MongoDB data models](https://inside-docupedia.bosch.com/confluence/spaces/simuLAB/pages/5288400828/08.01+-+MongoDB+data+models)
+execute: uv run [fetch_task_pipeline.py](use-case_sil-modell_vssp/scripts/fetch_task_pipeline.py) <taskid> # e.g. 524049
+# führt search_linked_tasks.py und task_fetcher.py nacheinander aus, schreibt CAE025316_linked_tasks.json und CAE025316_task_summaries.json

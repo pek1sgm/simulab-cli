@@ -1,0 +1,197 @@
+{
+  "root_task_id": 524049,
+  "root_task_number": "CAE025316",
+  "root_thema": "VSSP (SW: 450_700_C_08_00 HWlib: H2E_AEI_A_10_01_C70)",
+  "task_count": 21,
+  "tasks": [
+    {
+      "task_id": 524049,
+      "task_number": "CAE025316",
+      "thema": "VSSP (SW: 450_700_C_08_00 HWlib: H2E_AEI_A_10_01_C70)",
+      "relation_type": "root",
+      "parent_task_id": null,
+      "depth": 0,
+      "status": null
+    },
+    {
+      "task_id": 524456,
+      "task_number": "CAE025727",
+      "thema": "SWP3",
+      "relation_type": "sub_task",
+      "parent_task_id": 524049,
+      "depth": 1,
+      "status": null
+    },
+    {
+      "task_id": 524455,
+      "task_number": "CAE025726",
+      "thema": "TC",
+      "relation_type": "sub_task",
+      "parent_task_id": 524049,
+      "depth": 1,
+      "status": null
+    },
+    {
+      "task_id": 524042,
+      "task_number": "CAE025309",
+      "thema": "SiL Model Assembly _L460_ SW C08",
+      "relation_type": "depends on",
+      "parent_task_id": 524049,
+      "depth": 1,
+      "status": "Completed"
+    },
+    {
+      "task_id": 522957,
+      "task_number": "CAE024211",
+      "thema": "SiL Model Validation JLR (L460 SW_C05 I_Variable)",
+      "relation_type": "is related by",
+      "parent_task_id": 524455,
+      "depth": 2,
+      "status": "Cancelled"
+    },
+    {
+      "task_id": 524043,
+      "task_number": "CAE025310",
+      "thema": "SiL Model upgrade for Linux OS_ L460_SW_C08",
+      "relation_type": "follows",
+      "parent_task_id": 524042,
+      "depth": 2,
+      "status": "Completed"
+    },
+    {
+      "task_id": 523284,
+      "task_number": "CAE024546",
+      "thema": "Test Coordination JLR (L460 SW_C05 I_Variable)",
+      "relation_type": "sub_task",
+      "parent_task_id": 522957,
+      "depth": 3,
+      "status": null
+    },
+    {
+      "task_id": 523286,
+      "task_number": "CAE024548",
+      "thema": "SiL Model Parameter Identification and Validation JLR (L460 SW_C05 I_Variable)",
+      "relation_type": "sub_task",
+      "parent_task_id": 522957,
+      "depth": 3,
+      "status": null
+    },
+    {
+      "task_id": 523285,
+      "task_number": "CAE024547",
+      "thema": "Measurements Evaluation JLR (L460 SW_C05 I_Variable)",
+      "relation_type": "sub_task",
+      "parent_task_id": 522957,
+      "depth": 3,
+      "status": null
+    },
+    {
+      "task_id": 523038,
+      "task_number": "CAE024292",
+      "thema": "SiL Model Assembly _ L460_ SW C05",
+      "relation_type": "relates to",
+      "parent_task_id": 522957,
+      "depth": 3,
+      "status": "Completed"
+    },
+    {
+      "task_id": 523427,
+      "task_number": "CAE024690",
+      "thema": "Test Coordination JLR (L461 SW_C05 I_Constant)",
+      "relation_type": "precedes",
+      "parent_task_id": 523284,
+      "depth": 4,
+      "status": "Completed"
+    },
+    {
+      "task_id": 523270,
+      "task_number": "CAE024532",
+      "thema": "Review for JLR MLA High for L460 SW C05",
+      "relation_type": "sub_task",
+      "parent_task_id": 523038,
+      "depth": 4,
+      "status": null
+    },
+    {
+      "task_id": 523176,
+      "task_number": "CAE024432",
+      "thema": "vECU Model Validation after delivering the vECU with model related issues resolved",
+      "relation_type": "sub_task",
+      "parent_task_id": 523038,
+      "depth": 4,
+      "status": null
+    },
+    {
+      "task_id": 523173,
+      "task_number": "CAE024429",
+      "thema": "vECU Model Validation after fixing secondary engine running interface issue",
+      "relation_type": "sub_task",
+      "parent_task_id": 523038,
+      "depth": 4,
+      "status": null
+    },
+    {
+      "task_id": 523165,
+      "task_number": "CAE024421",
+      "thema": "vECU Defects",
+      "relation_type": "sub_task",
+      "parent_task_id": 523038,
+      "depth": 4,
+      "status": null
+    },
+    {
+      "task_id": 523146,
+      "task_number": "CAE024402",
+      "thema": "vECU Release Management",
+      "relation_type": "sub_task",
+      "parent_task_id": 523038,
+      "depth": 4,
+      "status": null
+    },
+    {
+      "task_id": 523145,
+      "task_number": "CAE024401",
+      "thema": "vECU Model Validation",
+      "relation_type": "sub_task",
+      "parent_task_id": 523038,
+      "depth": 4,
+      "status": null
+    },
+    {
+      "task_id": 521983,
+      "task_number": "CAE023231",
+      "thema": "SiL Model Assembly _L461 _ SW_C05 ",
+      "relation_type": "is related by",
+      "parent_task_id": 523038,
+      "depth": 4,
+      "status": "Completed"
+    },
+    {
+      "task_id": 523229,
+      "task_number": "CAE024489",
+      "thema": "SiL Model Upgrade for Linux OS_L460 _ SW_C05 ",
+      "relation_type": "precedes",
+      "parent_task_id": 523038,
+      "depth": 4,
+      "status": "Completed"
+    },
+    {
+      "task_id": 523271,
+      "task_number": "CAE024533",
+      "thema": "Review for JLR MLA High for L461 SW C05",
+      "relation_type": "sub_task",
+      "parent_task_id": 521983,
+      "depth": 5,
+      "status": null
+    },
+    {
+      "task_id": 523230,
+      "task_number": "CAE024490",
+      "thema": "SiL Model Upgrdae for Linux OS _ L461 _SW05",
+      "relation_type": "precedes",
+      "parent_task_id": 521983,
+      "depth": 5,
+      "status": "Completed"
+    }
+  ]
+}

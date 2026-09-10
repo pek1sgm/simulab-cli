@@ -1,0 +1,450 @@
+[
+  {
+    "task_id": 524049,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/524049",
+    "cae_number": "CAE025316",
+    "task_name": "VSSP (SW: 450_700_C_08_00 HWlib: H2E_AEI_A_10_01_C70)",
+    "sub_tasks": [
+      {
+        "aufgabeId": 524456,
+        "taskNumber": "CAE025727",
+        "thema": "SWP3"
+      },
+      {
+        "aufgabeId": 524455,
+        "taskNumber": "CAE025726",
+        "thema": "TC"
+      }
+    ],
+    "linked_tasks": [
+      {
+        "linkId": 5258,
+        "linkType": "depends on",
+        "status": "Completed",
+        "taskId": 524042,
+        "taskName": "SiL Model Assembly _L460_ SW C08",
+        "taskNumber": "CAE025309"
+      }
+    ],
+    "technical_reports": [
+      {
+        "report": "0040499642_001",
+        "download_link": "https://rb-wt-p-as.apps.intranet.bosch.com//Windchill/app/#ptc1/tcomp/infoPage?u8=1&ContainerOid=OR%3Awt.pdmlink.PDMLinkProduct%3A117260&oid=VR:wt.doc.WTDocument:1223484601"
+      }
+    ],
+    "task_data": null
+  },
+  {
+    "task_id": 524456,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/524456",
+    "cae_number": "CAE025727",
+    "task_name": "SWP3",
+    "sub_tasks": [],
+    "linked_tasks": [],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 524455,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/524455",
+    "cae_number": "CAE025726",
+    "task_name": "TC",
+    "sub_tasks": [],
+    "linked_tasks": [
+      {
+        "linkId": 5361,
+        "linkType": "is related by",
+        "status": "Cancelled",
+        "taskId": 522957,
+        "taskName": "SiL Model Validation JLR (L460 SW_C05 I_Variable)",
+        "taskNumber": "CAE024211"
+      }
+    ],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 524042,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/524042",
+    "cae_number": "CAE025309",
+    "task_name": "SiL Model Assembly _L460_ SW C08",
+    "sub_tasks": [],
+    "linked_tasks": [
+      {
+        "linkId": 5258,
+        "linkType": "is depended on by",
+        "status": "Completed",
+        "taskId": 524049,
+        "taskName": "VSSP (SW: 450_700_C_08_00 HWlib: H2E_AEI_A_10_01_C70)",
+        "taskNumber": "CAE025316"
+      },
+      {
+        "linkId": 5138,
+        "linkType": "follows",
+        "status": "Completed",
+        "taskId": 524043,
+        "taskName": "SiL Model upgrade for Linux OS_ L460_SW_C08",
+        "taskNumber": "CAE025310"
+      }
+    ],
+    "technical_reports": [
+      {
+        "report": "0040497954_001",
+        "download_link": "https://rb-wt-p-as.apps.intranet.bosch.com//Windchill/app/#ptc1/tcomp/infoPage?u8=1&ContainerOid=OR%3Awt.pdmlink.PDMLinkProduct%3A117260&oid=VR:wt.doc.WTDocument:1165739325"
+      }
+    ],
+    "task_data": "\\\\BOSCH.COM\\DfsRB\\DIV\\VM\\Engineering\\EPS\\CAE\\ICN\\task_data\\CAE025309"
+  },
+  {
+    "task_id": 522957,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/522957",
+    "cae_number": "CAE024211",
+    "task_name": "SiL Model Validation JLR (L460 SW_C05 I_Variable)",
+    "sub_tasks": [
+      {
+        "aufgabeId": 523284,
+        "taskNumber": "CAE024546",
+        "thema": "Test Coordination JLR (L460 SW_C05 I_Variable)"
+      },
+      {
+        "aufgabeId": 523286,
+        "taskNumber": "CAE024548",
+        "thema": "SiL Model Parameter Identification and Validation JLR (L460 SW_C05 I_Variable)"
+      },
+      {
+        "aufgabeId": 523285,
+        "taskNumber": "CAE024547",
+        "thema": "Measurements Evaluation JLR (L460 SW_C05 I_Variable)"
+      }
+    ],
+    "linked_tasks": [
+      {
+        "linkId": 5361,
+        "linkType": "relates to",
+        "status": "Completed",
+        "taskId": 524455,
+        "taskName": "TC",
+        "taskNumber": "CAE025726"
+      },
+      {
+        "linkId": 4394,
+        "linkType": "relates to",
+        "status": "Completed",
+        "taskId": 523038,
+        "taskName": "SiL Model Assembly _ L460_ SW C05",
+        "taskNumber": "CAE024292"
+      }
+    ],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 524043,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/524043",
+    "cae_number": "CAE025310",
+    "task_name": "SiL Model upgrade for Linux OS_ L460_SW_C08",
+    "sub_tasks": [],
+    "linked_tasks": [
+      {
+        "linkId": 5138,
+        "linkType": "precedes",
+        "status": "Completed",
+        "taskId": 524042,
+        "taskName": "SiL Model Assembly _L460_ SW C08",
+        "taskNumber": "CAE025309"
+      }
+    ],
+    "technical_reports": [
+      {
+        "report": "0040498042_001",
+        "download_link": "https://rb-wt-p-as.apps.intranet.bosch.com//Windchill/app/#ptc1/tcomp/infoPage?u8=1&ContainerOid=OR%3Awt.pdmlink.PDMLinkProduct%3A117260&oid=VR:wt.doc.WTDocument:1171144213"
+      }
+    ],
+    "task_data": "\\\\BOSCH.COM\\DfsRB\\DIV\\VM\\Engineering\\EPS\\CAE\\ICN\\task_data\\CAE025310"
+  },
+  {
+    "task_id": 523284,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523284",
+    "cae_number": "CAE024546",
+    "task_name": "Test Coordination JLR (L460 SW_C05 I_Variable)",
+    "sub_tasks": [],
+    "linked_tasks": [
+      {
+        "linkId": 4502,
+        "linkType": "precedes",
+        "status": "Completed",
+        "taskId": 523427,
+        "taskName": "Test Coordination JLR (L461 SW_C05 I_Constant)",
+        "taskNumber": "CAE024690"
+      }
+    ],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 523286,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523286",
+    "cae_number": "CAE024548",
+    "task_name": "SiL Model Parameter Identification and Validation JLR (L460 SW_C05 I_Variable)",
+    "sub_tasks": [],
+    "linked_tasks": [],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 523285,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523285",
+    "cae_number": "CAE024547",
+    "task_name": "Measurements Evaluation JLR (L460 SW_C05 I_Variable)",
+    "sub_tasks": [],
+    "linked_tasks": [],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 523038,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523038",
+    "cae_number": "CAE024292",
+    "task_name": "SiL Model Assembly _ L460_ SW C05",
+    "sub_tasks": [
+      {
+        "aufgabeId": 523270,
+        "taskNumber": "CAE024532",
+        "thema": "Review for JLR MLA High for L460 SW C05"
+      },
+      {
+        "aufgabeId": 523176,
+        "taskNumber": "CAE024432",
+        "thema": "vECU Model Validation after delivering the vECU with model related issues resolved"
+      },
+      {
+        "aufgabeId": 523173,
+        "taskNumber": "CAE024429",
+        "thema": "vECU Model Validation after fixing secondary engine running interface issue"
+      },
+      {
+        "aufgabeId": 523165,
+        "taskNumber": "CAE024421",
+        "thema": "vECU Defects"
+      },
+      {
+        "aufgabeId": 523146,
+        "taskNumber": "CAE024402",
+        "thema": "vECU Release Management"
+      },
+      {
+        "aufgabeId": 523145,
+        "taskNumber": "CAE024401",
+        "thema": "vECU Model Validation"
+      }
+    ],
+    "linked_tasks": [
+      {
+        "linkId": 4363,
+        "linkType": "is related by",
+        "status": "Completed",
+        "taskId": 521983,
+        "taskName": "SiL Model Assembly _L461 _ SW_C05 ",
+        "taskNumber": "CAE023231"
+      },
+      {
+        "linkId": 4366,
+        "linkType": "precedes",
+        "status": "Completed",
+        "taskId": 523229,
+        "taskName": "SiL Model Upgrade for Linux OS_L460 _ SW_C05 ",
+        "taskNumber": "CAE024489"
+      },
+      {
+        "linkId": 4394,
+        "linkType": "is related by",
+        "status": "Cancelled",
+        "taskId": 522957,
+        "taskName": "SiL Model Validation JLR (L460 SW_C05 I_Variable)",
+        "taskNumber": "CAE024211"
+      }
+    ],
+    "technical_reports": [
+      {
+        "report": "0040495413_001",
+        "download_link": "https://rb-wt-p-as.apps.intranet.bosch.com//Windchill/app/#ptc1/tcomp/infoPage?u8=1&ContainerOid=OR%3Awt.pdmlink.PDMLinkProduct%3A117260&oid=VR:wt.doc.WTDocument:1087502453"
+      }
+    ],
+    "task_data": "\\\\BOSCH.COM\\DfsRB\\DIV\\VM\\Engineering\\EPS\\CAE\\ICN\\task_data\\CAE024292"
+  },
+  {
+    "task_id": 523427,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523427",
+    "cae_number": "CAE024690",
+    "task_name": "Test Coordination JLR (L461 SW_C05 I_Constant)",
+    "sub_tasks": [],
+    "linked_tasks": [
+      {
+        "linkId": 4502,
+        "linkType": "follows",
+        "status": "Completed",
+        "taskId": 523284,
+        "taskName": "Test Coordination JLR (L460 SW_C05 I_Variable)",
+        "taskNumber": "CAE024546"
+      }
+    ],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 523270,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523270",
+    "cae_number": "CAE024532",
+    "task_name": "Review for JLR MLA High for L460 SW C05",
+    "sub_tasks": [],
+    "linked_tasks": [],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 523176,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523176",
+    "cae_number": "CAE024432",
+    "task_name": "vECU Model Validation after delivering the vECU with model related issues resolved",
+    "sub_tasks": [],
+    "linked_tasks": [],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 523173,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523173",
+    "cae_number": "CAE024429",
+    "task_name": "vECU Model Validation after fixing secondary engine running interface issue",
+    "sub_tasks": [],
+    "linked_tasks": [],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 523165,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523165",
+    "cae_number": "CAE024421",
+    "task_name": "vECU Defects",
+    "sub_tasks": [],
+    "linked_tasks": [],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 523146,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523146",
+    "cae_number": "CAE024402",
+    "task_name": "vECU Release Management",
+    "sub_tasks": [],
+    "linked_tasks": [],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 523145,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523145",
+    "cae_number": "CAE024401",
+    "task_name": "vECU Model Validation",
+    "sub_tasks": [],
+    "linked_tasks": [],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 521983,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/521983",
+    "cae_number": "CAE023231",
+    "task_name": "SiL Model Assembly _L461 _ SW_C05 ",
+    "sub_tasks": [
+      {
+        "aufgabeId": 523271,
+        "taskNumber": "CAE024533",
+        "thema": "Review for JLR MLA High for L461 SW C05"
+      }
+    ],
+    "linked_tasks": [
+      {
+        "linkId": 4367,
+        "linkType": "precedes",
+        "status": "Completed",
+        "taskId": 523230,
+        "taskName": "SiL Model Upgrdae for Linux OS _ L461 _SW05",
+        "taskNumber": "CAE024490"
+      },
+      {
+        "linkId": 4363,
+        "linkType": "relates to",
+        "status": "Completed",
+        "taskId": 523038,
+        "taskName": "SiL Model Assembly _ L460_ SW C05",
+        "taskNumber": "CAE024292"
+      }
+    ],
+    "technical_reports": [
+      {
+        "report": "0040495517_001",
+        "download_link": "https://rb-wt-p-as.apps.intranet.bosch.com//Windchill/app/#ptc1/tcomp/infoPage?u8=1&ContainerOid=OR%3Awt.pdmlink.PDMLinkProduct%3A117260&oid=VR:wt.doc.WTDocument:1083899056"
+      }
+    ],
+    "task_data": "\\\\BOSCH.COM\\DfsRB\\DIV\\VM\\Engineering\\EPS\\CAE\\ICN\\task_data\\CAE023231"
+  },
+  {
+    "task_id": 523229,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523229",
+    "cae_number": "CAE024489",
+    "task_name": "SiL Model Upgrade for Linux OS_L460 _ SW_C05 ",
+    "sub_tasks": [],
+    "linked_tasks": [
+      {
+        "linkId": 4366,
+        "linkType": "follows",
+        "status": "Completed",
+        "taskId": 523038,
+        "taskName": "SiL Model Assembly _ L460_ SW C05",
+        "taskNumber": "CAE024292"
+      }
+    ],
+    "technical_reports": [
+      {
+        "report": "0040495413_001",
+        "download_link": "https://rb-wt-p-as.apps.intranet.bosch.com//Windchill/app/#ptc1/tcomp/infoPage?u8=1&ContainerOid=OR%3Awt.pdmlink.PDMLinkProduct%3A117260&oid=VR:wt.doc.WTDocument:1087502453"
+      }
+    ],
+    "task_data": "\\\\BOSCH.COM\\DfsRB\\DIV\\VM\\Engineering\\EPS\\CAE\\ICN\\task_data\\CAE024489"
+  },
+  {
+    "task_id": 523271,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523271",
+    "cae_number": "CAE024533",
+    "task_name": "Review for JLR MLA High for L461 SW C05",
+    "sub_tasks": [],
+    "linked_tasks": [],
+    "technical_reports": [],
+    "task_data": null
+  },
+  {
+    "task_id": 523230,
+    "task_url": "https://rb-wam.bosch.com/caedb/#/aufgabeUebersicht/523230",
+    "cae_number": "CAE024490",
+    "task_name": "SiL Model Upgrdae for Linux OS _ L461 _SW05",
+    "sub_tasks": [],
+    "linked_tasks": [
+      {
+        "linkId": 4367,
+        "linkType": "follows",
+        "status": "Completed",
+        "taskId": 521983,
+        "taskName": "SiL Model Assembly _L461 _ SW_C05 ",
+        "taskNumber": "CAE023231"
+      }
+    ],
+    "technical_reports": [
+      {
+        "report": "0040495665_001",
+        "download_link": "https://rb-wt-p-as.apps.intranet.bosch.com//Windchill/app/#ptc1/tcomp/infoPage?u8=1&ContainerOid=OR%3Awt.pdmlink.PDMLinkProduct%3A117260&oid=VR:wt.doc.WTDocument:1086569869"
+      }
+    ],
+    "task_data": "\\\\BOSCH.COM\\DfsRB\\DIV\\VM\\Engineering\\EPS\\CAE\\ICN\\task_data\\CAE024490"
+  }
+]
