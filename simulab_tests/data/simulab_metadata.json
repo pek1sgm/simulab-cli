@@ -1,32 +1,30 @@
 {
     "definedMetadata": {
-        "id": "SDM0011624-001",
+        "id": "SDM0016730-001",
         "owner": "Petker Andreas (VM/EDI6)",
         "lastModifiedBy": "Petker Andreas (VM/EDI6)",
-        "creationDate": "2025-07-28T09:48:33.953000Z",
-        "lastModificationDate": "2025-07-28T09:48:33.953000Z"
+        "creationDate": "2026-09-14T11:18:23.104000Z",
+        "lastModificationDate": "2026-09-14T12:00:01.763000Z"
     },
-    "sdmVersion": 1,
-    "simulationBoxId": "688747713a33d43dd0df6744",
-    "type": "result",
-    "name": "test_sim_res_1",
+    "sdmVersion": 4,
+    "simulationBoxId": "6aa7e1c294a65e16032a992c",
+    "type": "model",
+    "name": "pls_delete_demo_CAE025316_VSSP (SW: 450_700_C_08_00 HWlib: H2E_AEI_A_10_01_C70)",
     "status": "In Work",
-    "description": null,
+    "description": "simuLAB QA demo for CAE-DB task CAE025316 (task ID 524049): VSSP (SW: 450_700_C_08_00 HWlib: H2E_AEI_A_10_01_C70)",
     "groupId": "vm-simulation",
-    "projectNumber": null,
-    "productType": "electrical power steering-system (eps)",
-    "product": "epsapa",
-    "simulationTool": [
-        {
-            "toolName": "Abaqus",
-            "toolVersion": null,
-            "toolSource": null
-        }
-    ],
+    "projectNumber": "CAE025316",
+    "productType": null,
+    "product": null,
+    "simulationTool": null,
     "simulationDomain": null,
     "tags": [
-        "delete in future"
+        "delete in future",
+        "qa-demo",
+        "sil-vssp"
     ],
     "uid": null,
-    "isLatest": false
+    "isLatest": false,
+    "userAccessRead": false,
+    "userAccessWrite": false
 }

@@ -841,7 +841,33 @@ Validate change description: - must be between 1 and 100 characters, - empty str
 
 ### validate_connection_type(connection_type, access_token=None)
 
-get the connection types from the API and validate the given connection type
+Holt die Connection Types dynamisch aus der API und validiert den übergebenen
+Wert. Ein ungültiger Wert löst einen `ValueError` aus. Die folgenden Werte
+wurden am 2026-09-15 von der QA-Instanz zurückgeliefert:
+
+- `analyses`
+- `generatesResult`
+- `hasBshWorkingDirectory`
+- `hasExternalCAEresult`
+- `hasModel`
+- `hasRequirements`
+- `hasSimulationReport`
+- `hasValidationData`
+- `hasValidationRequest`
+- `isBasedOn3dGeometry`
+- `isBasedOnDrawing`
+- `isBasedOnElectronicComponent`
+- `isBasedOnElectronicLayout`
+- `isBasedOnElectronicPanel`
+- `isBasedOnGeometry`
+- `isBasedOnMechanicalDocument`
+- `isBasedOnSimulationOrder`
+- `isBasedOnSourceCode`
+- `usesModel`
+- `usesResults`
+
+Die Liste kann zwischen Instanzen und über die Zeit abweichen; die API-Antwort
+bleibt autoritativ.
 
 ### write_item_metadata_json(sdm_number, sdm_revision, download_directory, access_token, sdm_version)
 

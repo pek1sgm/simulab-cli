@@ -1,0 +1,96 @@
+{
+  "items": {
+    "CAE025316": {
+      "name": "pls_delete_demo_CAE025316_VSSP (SW: 450_700_C_08_00 HWlib: H2E_AEI_A_10_01_C70)",
+      "sdm_number": "SDM0016730",
+      "sdm_revision": "001"
+    },
+    "CAE025309": {
+      "name": "pls_delete_demo_CAE025309_SiL Model Assembly _L460_ SW C08",
+      "sdm_number": "SDM0016731",
+      "sdm_revision": "001"
+    },
+    "CAE025310": {
+      "name": "pls_delete_demo_CAE025310_SiL Model upgrade for Linux OS_ L460_SW_C08",
+      "sdm_number": "SDM0016732",
+      "sdm_revision": "001"
+    },
+    "CAE024292": {
+      "name": "pls_delete_demo_CAE024292_SiL Model Assembly _ L460_ SW C05",
+      "sdm_number": "SDM0016733",
+      "sdm_revision": "001"
+    },
+    "CAE023231": {
+      "name": "pls_delete_demo_CAE023231_SiL Model Assembly _L461 _ SW_C05",
+      "sdm_number": "SDM0016734",
+      "sdm_revision": "001"
+    },
+    "CAE024489": {
+      "name": "pls_delete_demo_CAE024489_SiL Model Upgrade for Linux OS_L460 _ SW_C05",
+      "sdm_number": "SDM0016735",
+      "sdm_revision": "001"
+    }
+  },
+  "relations": {
+    "caedb:CAE025316": {
+      "source_sdm_number": "SDM0016730",
+      "connection_type": "isBasedOnSimulationOrder",
+      "external_id": "CAE025316"
+    },
+    "windchill:CAE025316:0040499642_001": {
+      "source_sdm_number": "SDM0016730",
+      "connection_type": "hasSimulationReport",
+      "external_id": "0040499642_001"
+    },
+    "caedb:CAE025309": {
+      "source_sdm_number": "SDM0016731",
+      "connection_type": "isBasedOnSimulationOrder",
+      "external_id": "CAE025309"
+    },
+    "windchill:CAE025309:0040497954_001": {
+      "source_sdm_number": "SDM0016731",
+      "connection_type": "hasSimulationReport",
+      "external_id": "0040497954_001"
+    },
+    "caedb:CAE025310": {
+      "source_sdm_number": "SDM0016732",
+      "connection_type": "isBasedOnSimulationOrder",
+      "external_id": "CAE025310"
+    },
+    "windchill:CAE025310:0040498042_001": {
+      "source_sdm_number": "SDM0016732",
+      "connection_type": "hasSimulationReport",
+      "external_id": "0040498042_001"
+    },
+    "caedb:CAE024292": {
+      "source_sdm_number": "SDM0016733",
+      "connection_type": "isBasedOnSimulationOrder",
+      "external_id": "CAE024292"
+    },
+    "windchill:CAE024292:0040495413_001": {
+      "source_sdm_number": "SDM0016733",
+      "connection_type": "hasSimulationReport",
+      "external_id": "0040495413_001"
+    },
+    "caedb:CAE023231": {
+      "source_sdm_number": "SDM0016734",
+      "connection_type": "isBasedOnSimulationOrder",
+      "external_id": "CAE023231"
+    },
+    "windchill:CAE023231:0040495517_001": {
+      "source_sdm_number": "SDM0016734",
+      "connection_type": "hasSimulationReport",
+      "external_id": "0040495517_001"
+    },
+    "caedb:CAE024489": {
+      "source_sdm_number": "SDM0016735",
+      "connection_type": "isBasedOnSimulationOrder",
+      "external_id": "CAE024489"
+    },
+    "windchill:CAE024489:0040495413_001": {
+      "source_sdm_number": "SDM0016735",
+      "connection_type": "hasSimulationReport",
+      "external_id": "0040495413_001"
+    }
+  }
+}
