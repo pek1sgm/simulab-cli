@@ -1,0 +1,32 @@
+{
+    "definedMetadata": {
+        "id": "SDM0011624-001",
+        "owner": "Petker Andreas (VM/EDI6)",
+        "lastModifiedBy": "Petker Andreas (VM/EDI6)",
+        "creationDate": "2025-07-28T09:48:33.953000Z",
+        "lastModificationDate": "2025-07-28T09:48:33.953000Z"
+    },
+    "sdmVersion": 1,
+    "simulationBoxId": "688747713a33d43dd0df6744",
+    "type": "result",
+    "name": "test_sim_res_1",
+    "status": "In Work",
+    "description": null,
+    "groupId": "vm-simulation",
+    "projectNumber": null,
+    "productType": "electrical power steering-system (eps)",
+    "product": "epsapa",
+    "simulationTool": [
+        {
+            "toolName": "Abaqus",
+            "toolVersion": null,
+            "toolSource": null
+        }
+    ],
+    "simulationDomain": null,
+    "tags": [
+        "delete in future"
+    ],
+    "uid": null,
+    "isLatest": false
+}

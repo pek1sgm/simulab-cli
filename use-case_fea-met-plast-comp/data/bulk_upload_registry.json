@@ -1,0 +1,272 @@
+{
+  "CAE021537": {
+    "QA": {
+      "timestamp": "2026-09-23T12:05:14",
+      "result": {
+        "name": "pls_delete_016_CAE021537 - Yoke and BNG Gen2 - Rack - Design Verification - Rack Bending Line",
+        "sdm_number": "SDM0016783",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T16:21:29",
+      "result": {
+        "name": "CAE021537 - Yoke and BNG Gen2 - Rack - Design Verification - Rack Bending Line",
+        "sdm_number": "SDM0035189",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE021610": {
+    "QA": {
+      "timestamp": "2026-09-23T12:09:28",
+      "result": {
+        "name": "pls_delete_017_CAE021610 - Servo unit ball bearing press in forces",
+        "sdm_number": "SDM0016784",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T16:25:59",
+      "result": {
+        "name": "CAE021610 - Servo unit ball bearing press in forces",
+        "sdm_number": "SDM0035190",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE021716": {
+    "QA": {
+      "timestamp": "2026-09-23T12:11:38",
+      "result": {
+        "name": "pls_delete_018_CAE021716 - MSO 048 Test MVP - pitting corrosion WP03 - Test the MVP",
+        "sdm_number": "SDM0016785",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T16:28:20",
+      "result": {
+        "name": "CAE021716 - MSO 048 Test MVP - pitting corrosion WP03 - Test the MVP",
+        "sdm_number": "SDM0035191",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE022196": {
+    "QA": {
+      "timestamp": "2026-09-23T12:13:43",
+      "result": {
+        "name": "pls_delete_019_CAE022196 - SWA - FEA Alternative concept of planet gear (press fit bush)",
+        "sdm_number": "SDM0016786",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T16:30:33",
+      "result": {
+        "name": "CAE022196 - SWA - FEA Alternative concept of planet gear (press fit bush)",
+        "sdm_number": "SDM0035192",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE022584": {
+    "QA": {
+      "timestamp": "2026-09-23T12:18:23",
+      "result": {
+        "name": "pls_delete_020_CAE022584 - FEA Metal Components - Ball retrun channel Design Study",
+        "sdm_number": "SDM0016787",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T16:34:35",
+      "result": {
+        "name": "CAE022584 - FEA Metal Components - Ball retrun channel Design Study",
+        "sdm_number": "SDM0035193",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE022842": {
+    "QA": {
+      "timestamp": "2026-09-23T12:22:05",
+      "result": {
+        "name": "pls_delete_021_CAE022842 - FEA Metal Components - Servo-Housing - Ball Bearing - Press in Simulation",
+        "sdm_number": "SDM0016788",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T16:37:58",
+      "result": {
+        "name": "CAE022842 - FEA Metal Components - Servo-Housing - Ball Bearing - Press in Simulation",
+        "sdm_number": "SDM0035194",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE022982": {
+    "QA": {
+      "timestamp": "2026-09-23T12:25:25",
+      "result": {
+        "name": "pls_delete_022_CAE022982 - Staking Force, Assembly, Part and Tool Tolerance",
+        "sdm_number": "SDM0016789",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T16:40:34",
+      "result": {
+        "name": "CAE022982 - Staking Force, Assembly, Part and Tool Tolerance",
+        "sdm_number": "SDM0035195",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE023215": {
+    "QA": {
+      "timestamp": "2026-09-23T12:29:06",
+      "result": {
+        "name": "pls_delete_023_CAE023215 - Strength evaluation ARD & Rack Bending Investigation (Loop 1)",
+        "sdm_number": "SDM0016790",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T16:43:39",
+      "result": {
+        "name": "CAE023215 - Strength evaluation ARD & Rack Bending Investigation (Loop 1)",
+        "sdm_number": "SDM0035196",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE024125": {
+    "QA": {
+      "timestamp": "2026-09-23T12:38:00",
+      "result": {
+        "name": "pls_delete_024_CAE024125 - FEA Pinion - Volvo SPA1 LHD pinion pin transition hardening",
+        "sdm_number": "SDM0016791",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T16:50:25",
+      "result": {
+        "name": "CAE024125 - FEA Pinion - Volvo SPA1 LHD pinion pin transition hardening",
+        "sdm_number": "SDM0035197",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE024392": {
+    "QA": {
+      "timestamp": "2026-09-23T12:46:16",
+      "result": {
+        "name": "pls_delete_025_CAE024392 - Strength evaluation ARD & Rack Bending Investigation (Loop 2)",
+        "sdm_number": "SDM0016792",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T16:56:11",
+      "result": {
+        "name": "CAE024392 - Strength evaluation ARD & Rack Bending Investigation (Loop 2)",
+        "sdm_number": "SDM0035198",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE025313": {
+    "QA": {
+      "timestamp": "2026-09-23T12:49:09",
+      "result": {
+        "name": "pls_delete_026_CAE025313 - FEM Kontaktsimulation Lenkmuttersegment mit hochbelasteten Kugeln",
+        "sdm_number": "SDM0016793",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T16:58:38",
+      "result": {
+        "name": "CAE025313 - FEM Kontaktsimulation Lenkmuttersegment mit hochbelasteten Kugeln",
+        "sdm_number": "SDM0035199",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE025470": {
+    "QA": {
+      "timestamp": "2026-09-23T12:56:11",
+      "result": {
+        "name": "pls_delete_027_CAE025470 - NEO Steer SRA - Rack bending investigation_Loop 2",
+        "sdm_number": "SDM0016794",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T17:04:15",
+      "result": {
+        "name": "CAE025470 - NEO Steer SRA - Rack bending investigation_Loop 2",
+        "sdm_number": "SDM0035200",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE026097": {
+    "QA": {
+      "timestamp": "2026-09-23T12:59:47",
+      "result": {
+        "name": "pls_delete_028_CAE026097 - Follow-Up FEA Press fit of iTAS rotor sleeve into input shaft",
+        "sdm_number": "SDM0016795",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T17:07:11",
+      "result": {
+        "name": "CAE026097 - Follow-Up FEA Press fit of iTAS rotor sleeve into input shaft",
+        "sdm_number": "SDM0035201",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE026275": {
+    "QA": {
+      "timestamp": "2026-09-23T13:04:03",
+      "result": {
+        "name": "pls_delete_029_CAE026275 - FEA Plastic Component - Yoke - Part 1",
+        "sdm_number": "SDM0016796",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T17:10:12",
+      "result": {
+        "name": "CAE026275 - FEA Plastic Component - Yoke - Part 1",
+        "sdm_number": "SDM0035202",
+        "sdm_revision": "001"
+      }
+    }
+  },
+  "CAE026462": {
+    "QA": {
+      "timestamp": "2026-09-23T13:07:39",
+      "result": {
+        "name": "pls_delete_030_CAE026462 - FEA Plastic Component - Yoke - Part 1 - Comparison",
+        "sdm_number": "SDM0016797",
+        "sdm_revision": "001"
+      }
+    },
+    "PROD": {
+      "timestamp": "2026-09-23T17:12:54",
+      "result": {
+        "name": "CAE026462 - FEA Plastic Component - Yoke - Part 1 - Comparison",
+        "sdm_number": "SDM0035203",
+        "sdm_revision": "001"
+      }
+    }
+  }
+}
